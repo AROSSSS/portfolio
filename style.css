@@ -1,0 +1,242 @@
+@import url(https://fonts.googleapis.com/css?family=Lunasima);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(7, 22, 24)
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+}
+
+.navbar {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar nav {
+    justify-content: space-between;
+    margin-left: 600px;
+}
+
+.navbar a {
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    margin-left: 30px;
+    transition: .5s;
+}
+
+.img-fluid my-5 rounded-circle {
+    background-image: url(images/avatar.jpg);
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: top center; margin-left: 1000px;
+}
+
+.home {
+    height: 100vh;
+    background-image: url(images/homebg.jpg);
+    background-position: left;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content {
+    max-width: 600px;
+    font-family: "Lunasima";
+    color: beige;
+}
+
+.home-content h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: beige;
+}
+
+.home-content h2 {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    color: beige;
+}
+
+.home-content p {
+    font-size: 30px;
+    margin: 20px 0 40px;
+}
+
+.logo {
+    max-width: 50px;
+}
+
+.c-img{
+    height: 100%;
+    width: 100%;
+    filter: brightness(0.8);
+}
+.c-item{
+    max-height: 80%;
+    max-width: 80%;
+    margin: auto;
+    object-fit: cover;
+}
+
+.carousel-button{
+    color: #7e7a7a;
+    opacity: 0.4;
+}
+
+.projectheader {
+    background-color: rgb(7, 22, 24);
+    margin-bottom: 1opx;
+    padding: 10px 10px;
+    height: 30vh;
+}
+
+.projectheader h1 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Lunasima";
+    color: beige;
+}
+
+.projectheader h2 {
+    font-size: 20px;
+    font-family: "Lunasima";
+    color: beige;
+}
+
+.projects {
+    background-color: rgb(205, 143, 153);
+    padding: 15px 20%;
+    display: flex;
+    height: 70vh;
+    object-fit: fill;
+}
+
+.hobbies {
+    font-family: "Lunasima";
+    color: purple;
+    background-color: rgb(7, 22, 24);
+}
+
+.hobbies h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(209, 209, 6);
+    text-align: center;
+}
+    
+.hobbies p {
+ text-align: center;
+}
+
+.container-artworks {
+    position: relative;
+    min-height: 100vh;
+    background-color: rgb(7, 22, 24);
+    font-family: "Lunasima"
+}
+
+.container-artworks h1 {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.container-artworks p {
+    font-size: 20px;
+}
+
+.container-artworks .img-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.container-artworks .img-container .art {
+    height: 500px;
+    width: 500px;
+    border: 0 3px solid purple;
+    box-shadow: 0, 0, 0, .1;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.container-artworks .img-container .art img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.container-artworks .img-container .art img1 {
+    width: 100%;
+}
+
+.contact {
+    background: url(images/contactmegif.gif);
+    height: 75vh;
+    padding-top: 40px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 80px;
+    height: 80px;
+    background: transparent;
+    border: 5px transparent blueviolet;
+    font-size: 50px;
+    border-radius: 50%;
+    z-index: 1;
+    overflow: hidden;
+    text-decoration: none;
+    color: #f83d41;
+}
+
+.contact a :hover{
+    color: #Feca5a;
+}
+
+.contact a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #f83d41;
+    z-index: -1;
+    transition: .3s;
+}
+
+.contact a:hover::before {
+    width: 100%;
+}
