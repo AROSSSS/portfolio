@@ -82,6 +82,50 @@ body {
     margin: 20px 0 40px;
 }
 
+.about{ 
+    width: 100%; 
+    height: auto; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 80px 12%; 
+    background: rgb(7, 22, 24);
+    font-family: "Lunasima";
+} 
+.about-left img{ 
+    width: 420px; 
+    height: auto; 
+} 
+.about-right{ 
+    width: 54%; 
+} 
+.about-right ul li { 
+    display: flex; 
+    align-items: center; 
+} 
+.about-right h2 { 
+    color: beige; 
+    font-size: 60px; 
+    margin-bottom: 5px; 
+    text-align: center; 
+} 
+.about-right h2 span{ 
+    color: purple; 
+} 
+.about-right p { 
+    color: beige; 
+    line-height: 26px; 
+    font-size: 18px; 
+    text-align: left; 
+}
+
+.about-right p2 { 
+    color: beige; 
+    line-height: 26px; 
+    font-size: 18px; 
+    text-align: left; 
+}
+
 .logo {
     max-width: 50px;
 }
