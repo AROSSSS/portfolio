@@ -61,20 +61,20 @@ body {
 .home-content {
     max-width: 600px;
     font-family: "Lunasima";
-    color: beige;
+    color: white;
 }
 
 .home-content h1 {
     font-size: 50px;
     font-weight: 700;
-    color: beige;
+    color: white;
 }
 
 .home-content h2 {
     margin-top: 10px;
     font-size: 30px;
     font-weight: 600;
-    color: beige;
+    color: white;
 }
 
 .home-content p {
@@ -190,6 +190,10 @@ body {
     
 .hobbies p {
  text-align: center;
+}
+
+.art palette {
+    font-size: 50px;
 }
 
 .container-artworks {
